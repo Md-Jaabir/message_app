@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	display: flex;
+	height: 100vh;	
+	align-items: : center;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.topmenu{
+	background: black;
+    padding: 5px 30px;
+    padding-top: 16px;
+    height: 30px;
+    width: 100%;
+}
+
+.topmenu button{
+	background: none;
+	color: white;
+	border:none;
+	margin: 0 10px;
+	cursor: pointer;
+	font-size:16px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topmenu button:hover{
+	background: none;
+	text-decoration:underline;
+}
+
+.content{
+	height: 94%;
+    width: 100%;
+    background: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    padding:0 100px 0 0;
+}
+
+.content p{
+	width: 80%;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
+.main-block form{
+	height: 40%;
+    background: white;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    box-shadow: 6px 2px 16px 3px #efd3d3;
+}
+
+.main-block form input{
+	padding: 5px 10px;
+    border-radius: 4px;
+    width: 65%;
+    height: 20px;
+    border: 1px solid #999;
+}
+
+.main-block form button{
+	padding: 12px 22px;
+    border-radius: 4px;
+    width: 25%;
+    height: 38px;
+    border: none;
+    background: #a3a3ff;
+    color: white;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.main-block form button:active{
+    background: #6262c1;
+}
+
+.cnf-form{
+	padding: 30px 0;
+	height: 450px;
+}
+
+.cnf-form input{
+	margin-top:-16px;
+}
+
+.cnf-form h1{
+	margin-bottom:30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.cnf-form button{
+	margin-top: -20px;
+}
+
+.cntf form{
+    width: 93vw;
+    height: 85vh;
+}
+
+.ta2{
+	margin: 20px 0;
+}
+
+.cntf form textarea{
+	font-size:15px;
+	padding: 5px 7px;
+	font-family: 'Open Sans', sans-serif; 
+	resize: none;
+	border: 1px solid #999;
+}
+
+.ta1{
+	margin-top: 20px;
+}
+
+.cntf form button{
+	width: 120px;
+    margin-bottom: 10px;
+}

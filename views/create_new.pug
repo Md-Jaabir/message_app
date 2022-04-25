@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create New file</title>
+    style
+      include css/style.css
+  </head>
+  <body>
+    <div class="topmenu">
+      <a href="/"><button> &laquo; Back to home</button></a>
+      <a href="/open"><button>Open</button></a>
+      <a href="/new_file"><button>+ Create New</button></a>
+      <a href="/" target="_blank"><button>+ New Tab</button></a>
+    </div>
+    <div class="main-block content">  
+      <form action="/create" method="post" class="cnf-form">
+        <h1>Create New file</h1>
+        <input type="text" placeholder="Enter folder path" required name="folder">
+        <br>
+        <br>
+        <input type="text" placeholder="Enter file name" required name="file_name">
+        <br>
+        <br>
+        <button type="submit">Create</button>
+      </form>
+    </div>
+  </body>
+</html>

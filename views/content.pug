@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>#{fname}</title>
+    style
+      include css/style.css
+  </head>
+  <body>
+    <div class="topmenu">
+      <a href="/"><button> &laquo; Back to home</button></a>
+      <a href="/open"><button>Open</button></a>
+      <a href="/new_file"><button>+ Create New</button></a>
+      <a href="/" target="_blank"><button>+ New Tab</button></a>
+    </div>
+    <div class="main-block content">  
+      <div class="cntf">
+        <form action="/content" method="post" class="content-form">
+        <textarea cols="140" rows="2" name="name" class="ta1">#{fname}</textarea>
+        <textarea placeholder="Write Something...." name="cont" id="" cols="140" rows="25" class="ta2">#{fcontent}</textarea>
+        <button type="submit">Save</button>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
